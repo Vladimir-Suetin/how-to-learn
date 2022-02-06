@@ -14,15 +14,18 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  position: relative;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
+/*.header__square-pic {
   height: 568px;
   width: 568px;
-}
+}*/
+div {border: 1px solid red;}
 
 .flex {display: flex; align-items: center;}
+
 .logo_place_header {
   width: 183px;
   height: 32px;
@@ -39,7 +42,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  z-index: 2;
+  z-index: 3;
 }
 
 .header__subtitle {
@@ -47,8 +50,18 @@
   width: 388px;
   bottom: 30px;
   left: 64px;
+  line-height: 25px;
+  font-size: 18px;
+  z-index: 2;
 }
 
+.header__link {
+  text-decoration: none;
+}
+.header__link::after {
+  content: "\2192";
+  color: #000000;
+}
 .header__main-illustration {
   position: absolute;
   width: 765px;
