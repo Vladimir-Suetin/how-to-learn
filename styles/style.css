@@ -70,10 +70,10 @@ div {border: 1px solid red;}
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 .header__link::after {
   content: " \2192";
-  color: #000000;
 }
 .header__main-illustration {
   position: absolute;
@@ -222,6 +222,85 @@ margin: 0 auto;
 
 .table__footnote_position {
   margin-top: 20px;
+}
+
+.feynman {
+  /*display: flex;
+  justify-content: center;*/
+  height: 890px;
+  position: relative;
+  background-color: #f2f2f2;
+  margin: 0;
+  z-index: -2;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+.feynman__title {
+  width: 648px; 
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+
+}
+
+.feynman__title_position {
+  /*position: absolute;
+  top: 100px;
+  text-align: center;
+  z-index: 2;*/
+  margin: 0 auto;
+  text-align: center;
+  z-index: 3;
+
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0 auto;
+}
+
+.feynman__subtitle_position {
+  /*position: absolute;
+  top: 70px;
+  text-align: center;
+  margin-top: 70px;
+  z-index: 2;*/
+  margin-top: 70px;
+  text-align: center;
+  z-index: 5;
+}
+.feynman__link {
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.feynman__link_position {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+}
+
+.feynman__link_position::after {
+  content: " \2192";
+  color: ##2f80ed;
+}
+
+.feynman__image {
+  width: 867px;
+  height: 637px;
+}
+
+.feynman__image_position {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
