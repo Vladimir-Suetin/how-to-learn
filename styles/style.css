@@ -188,9 +188,10 @@ margin: 0 auto;
 
 .table__cell {
   width: 250px;
-  margin: 0;
 }
 .table__cell_theme_white {
+  display: flex;
+  flex-direction: column;
   margin-top: 60px;
 }
 
@@ -200,11 +201,6 @@ margin: 0 auto;
   font-weight: normal;
   margin: 0;
   padding: 0;
-}
-
-.table__text_theme_white {
-  display: flex;
-  flex-direction: column;
 }
 
 .table__heading {
