@@ -116,7 +116,7 @@
 
 .two-columns__main-text {
   width: 80%;
-  min-width: 784;
+  min-width: 784px;
 }
 
 .two-columns__paragraph {
@@ -268,7 +268,7 @@ margin-top: 30px;
   right: 48px;
 }
 
-.feynman__link_position::after {
+.feynman__link_element_position::after {
   content: " \2192";
   color: #2f80ed;
 }
@@ -412,6 +412,9 @@ margin-top: 30px;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__element-link {
