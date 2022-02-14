@@ -148,7 +148,7 @@ margin-top: 30px;
 .section-title {
   margin: 0 auto;
   padding: 0;
-  text-align: center
+  text-align: center;
 }
 
 .section-title_theme_white {
@@ -225,7 +225,7 @@ margin-top: 30px;
 }
 
 .feynman__title {
-  width: 648px; 
+  width: 648px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
@@ -268,7 +268,7 @@ margin-top: 30px;
   right: 48px;
 }
 
-.feynman__link_element_position::after {
+.feynman__link_position::after {
   content: " \2192";
   color: #2f80ed;
 }
@@ -385,7 +385,7 @@ margin-top: 30px;
   position: absolute;
   margin-top: 18px;
   left: 0;
-  bottom: 18px
+  bottom: 18px;
 }
 
 .footer__column-heading {
