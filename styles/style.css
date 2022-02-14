@@ -268,7 +268,7 @@ margin-top: 30px;
   right: 48px;
 }
 
-.feynman__link_position::after {
+.feynman__link_element_position::after {
   content: " \2192";
   color: #2f80ed;
 }
