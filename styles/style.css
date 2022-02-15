@@ -403,6 +403,7 @@ margin-top: 30px;
 .footer__column-links {
   margin: 0px;
   padding: 0px;
+  list-style-type: none;
 }
 
 .footer__column-links_element_position {
@@ -410,15 +411,11 @@ margin-top: 30px;
 }
 
 .footer__column-link {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-}
-
-.footer__column-link a{
   text-decoration: none;
   color: white;
 }
