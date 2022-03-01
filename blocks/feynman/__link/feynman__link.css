@@ -11,5 +11,4 @@
 
 .feynman__link::after {
   content: " \2192";
-  color: #2f80ed;
 }
