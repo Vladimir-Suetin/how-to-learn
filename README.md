@@ -13,3 +13,7 @@
 * К блокам и элементам применена методология BEM
 * Для создания сеток используется Flex
 * Для анимации элементов используется CSS
+
+### Автор
+**Владимир Суетин** :arrow_right: [Ссылка на профиль GitHub](https://github.com/vladimir-suetin)  
+**Ссылка на проект** :arrow_right: [Научиться учиться](https://vladimir-suetin.github.io/how-to-learn)
