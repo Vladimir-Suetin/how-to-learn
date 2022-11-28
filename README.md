@@ -16,4 +16,4 @@
 
 ### Автор
 **Владимир Суетин** :arrow_right: [Ссылка на профиль GitHub](https://github.com/vladimir-suetin)  
-**Ссылка на проект** :arrow_right: [Путешествия по России](https://vladimir-suetin.github.io/how-to-learn)
+**Ссылка на проект** :arrow_right: [Научиться учиться](https://vladimir-suetin.github.io/how-to-learn)
